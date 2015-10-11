@@ -1,3 +1,6 @@
+import createSVGElement from './createSVGElement.js';
+import polarToCartesian from './polarToCartesian.js';
+
 function createArcPath(x, y, radius, endAngle, startAngle, color) {
 
     const [x1,y1] = polarToCartesian(radius, radius, radius, startAngle - 90);

@@ -1,3 +1,5 @@
+import createArcPath from './createArcPath.js';
+
 function drawArcs(element, data, radius, palette) {
 
     const centerX = element.getAttribute('width') / 2;

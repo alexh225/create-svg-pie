@@ -1,7 +1,5 @@
 "use strict";
 import createSVGElement from './createSVGElement.js';
-import polarToCartesian from './polarToCartesian.js';
-import createArcPath from './createArcPath.js';
 import drawArcs from './drawArcs.js';
 
 const defaults = {
