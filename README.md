@@ -1,5 +1,5 @@
-get-dataurl
-===========
+create-svg-pie
+==============
 [![Build Status](https://travis-ci.org/janjarfalk/create-svg-pie.svg?branch=master)](https://travis-ci.org/janjarfalk/create-svg-pie)
 
 Create a SVG pie chart from number array.
