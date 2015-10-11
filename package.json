@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "description": "Create a SVG pie chart from number array.",
   "keywords": [
-    "base64",
-    "image",
-    "data url"
+    "pie",
+    "chart",
+    "svg"
   ],
   "main": "dist/createSVGPie.js",
   "scripts": {
