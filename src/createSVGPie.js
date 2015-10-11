@@ -2,6 +2,7 @@
 import createSVGElement from './createSVGElement.js';
 import polarToCartesian from './polarToCartesian.js';
 import createArcPath from './createArcPath.js';
+import drawArcs from './drawArcs.js';
 
 const defaults = {
     colors: ['#4D4D4D', '#5DA5DA', '#FAA43A', '#60BD68', '#F17CB0', '#B2912F', '#B276B2', '#DECF3F', '#F15854']
