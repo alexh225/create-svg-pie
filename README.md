@@ -16,21 +16,36 @@ import createSVGPie from 'create-svg-pie';
 const values = [5, 10, 15];
 const radius = 100;
 
+// Pie with default colors
 const pie = createSVGPie(values, pie);
-
 document.body.appendChild(pie);
+
+// Pie with custom colors
+const palette = ['#3cf','#f36','#fc3'];
+const customPie = createSVGPie(values, pie, palette);
+document.body.appendChild(customPie);
+
 ```
-## Example Result (html)
+## Example HTML output
 ```html
+<!-- Pie with default colors -->
 <svg width="200" height="200" viewBox="0 0 200 200">
   <path d="M100,100  L100,0  A100,100 0 0,1 186.60254037844388,50.00000000000001 z" fill="#4D4D4D"></path>
   <path d="M100,100  L186.60254037844388,50.00000000000001  A100,100 0 0,1 100,200 z" fill="#5DA5DA"></path>
   <path d="M100,100  L100,200  A100,100 0 0,1 99.99999999999999,0 z" fill="#FAA43A"></path>
 </svg>
+
+<!-- Pie with custom colors -->
+<svg width="200" height="200" viewBox="0 0 200 200">
+  <path d="M100,100  L100,0  A100,100 0 0,1 186.60254037844388,50.00000000000001 z" fill="#3cf"></path>
+  <path d="M100,100  L186.60254037844388,50.00000000000001  A100,100 0 0,1 100,200 z" fill="#f36"></path>
+  <path d="M100,100  L100,200  A100,100 0 0,1 99.99999999999999,0 z" fill="#fc3"></path>
+</svg>
 ```
 
-## Example Result (image)
-![Image of Yaktocat](pie.png)
+## Example image output
+![Default pie](pie.png)
+![Custom pie](pie-custom.png)
 
 
 ## Contributing
