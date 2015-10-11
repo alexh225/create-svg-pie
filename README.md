@@ -1,20 +1,24 @@
 get-dataurl
 ===========
-[![Build Status](https://travis-ci.org/janjarfalk/get-dataurl.svg?branch=master)](https://travis-ci.org/janjarfalk/get-dataurl)
+[![Build Status](https://travis-ci.org/janjarfalk/create-svg-pie.svg?branch=master)](https://travis-ci.org/janjarfalk/create-svg-pie)
 
-Get base64 encoded data url from image.
+Create a SVG pie chart from number array.
 
 ## Installation
 ```
-npm install get-dataurl --save
+npm install create-svg-pie --save
 ```
 
 ## Usage
 ```
-import getDataUrl from 'get-dataurl';
-getDataUrl('image.png', (dataUrl) => {
-  console.log(dataUrl);
-});
+import createSVGPie from 'create-svg-pie';
+
+const values = [5, 10, 15];
+const radius = 100;
+
+const pie = createSVGPie(values, pie);
+
+document.body.appendChild(pie);
 ```
 
 
