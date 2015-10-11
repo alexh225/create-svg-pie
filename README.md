@@ -5,12 +5,12 @@ create-svg-pie
 Create a SVG pie chart from number array.
 
 ## Installation
-```
+```sh
 npm install create-svg-pie --save
 ```
 
 ## Usage
-```
+```js
 import createSVGPie from 'create-svg-pie';
 
 const values = [5, 10, 15];
