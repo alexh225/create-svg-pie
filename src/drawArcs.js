@@ -9,8 +9,8 @@ function drawArcs(element, data, radius, palette) {
         return memo + value;
     }, 0);
 
-    const angles = data.map(function (v) {
-        return 360 * (v / total);
+    const angles = data.map(function (value) {
+        return 360 * (value / total);
     });
 
     let startAngle = 0;
