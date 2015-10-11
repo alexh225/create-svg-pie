@@ -3,6 +3,13 @@
 Object.defineProperty(exports, '__esModule', {
     value: true
 });
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _createArcPathJs = require('./createArcPath.js');
+
+var _createArcPathJs2 = _interopRequireDefault(_createArcPathJs);
+
 function drawArcs(element, data, radius, palette) {
 
     var centerX = element.getAttribute('width') / 2;
@@ -24,7 +31,7 @@ function drawArcs(element, data, radius, palette) {
         startAngle = endAngle;
         endAngle = startAngle + angles[i];
 
-        var arc = createArcPath(centerX, centerY, radius, endAngle, startAngle, palette[i]);
+        var arc = (0, _createArcPathJs2['default'])(centerX, centerY, radius, endAngle, startAngle, palette[i]);
         fragment.appendChild(arc);
     }
 

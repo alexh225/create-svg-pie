@@ -9,14 +9,6 @@ var _createSVGElementJs = require('./createSVGElement.js');
 
 var _createSVGElementJs2 = _interopRequireDefault(_createSVGElementJs);
 
-var _polarToCartesianJs = require('./polarToCartesian.js');
-
-var _polarToCartesianJs2 = _interopRequireDefault(_polarToCartesianJs);
-
-var _createArcPathJs = require('./createArcPath.js');
-
-var _createArcPathJs2 = _interopRequireDefault(_createArcPathJs);
-
 var _drawArcsJs = require('./drawArcs.js');
 
 var _drawArcsJs2 = _interopRequireDefault(_drawArcsJs);
