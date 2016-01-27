@@ -17,12 +17,12 @@ const values = [5, 10, 15];
 const radius = 100;
 
 // Pie with default colors
-const pie = createSVGPie(values, pie);
+const pie = createSVGPie(values, radius);
 document.body.appendChild(pie);
 
 // Pie with custom colors
 const palette = ['#3cf','#f36','#fc3'];
-const customPie = createSVGPie(values, pie, palette);
+const customPie = createSVGPie(values, radius, palette);
 document.body.appendChild(customPie);
 
 ```
